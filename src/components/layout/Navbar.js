@@ -11,7 +11,7 @@ class Navbar extends Component {
         super(props);
         this.state = {
           darkmode:"no",
-          navCol:false, //make true
+          navCol:true, //make true
           featuresDropDown:false, //make false
           infoDropDown:false, //make false
           features:false,
