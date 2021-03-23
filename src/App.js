@@ -1,25 +1,56 @@
+import React, { Component } from "react";
 import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Router as Router, Route, Switch, Link,withRouter } from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom' 
+import Navbar from "./components/layout/Navbar"
+import Footer from "./components/layout/Footer"
+import Gallery from "./components/Gallery"
+import Pigs from "./components/Pigs"
+import Truffles from "./components/Truffles"
+import Buttons from "./components/Buttons"
+import Icons from "./components/Icons"
+import Progress from "./components/Progress"
+import Misc from "./components/Misc"
+import Me from "./components/Me"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      navCol:"",
+    } 
+  }
+
+  componentWillMount() {
+    this.callbackFunctionNav()
+  }
+
+  callbackFunctionNav = (data) => {
+      this.setState({navCol: data})
+      return data
+    }
+
+  render() {
+    return (
+      <BrowserRouter> 
+          <Navbar  parentCallbackNav={this.callbackFunctionNav}/> 
+          <div   id={(this.state.navCol==false)?"apa":"apa-full"}>
+            <Route exact path="/" component={Gallery}/>
+            <Route exact path="/pigs" component={Pigs}/>
+            <Route exact path="/truffles" component={Truffles}/>
+            <Route exact path="/buttons" component={Buttons}/>
+            <Route exact path="/icons" component={Icons}/>
+            <Route exact path="/progress" component={Progress}/>
+            <Route exact path="/misc" component={Misc}/>
+            <Route exact path="/about-me" component={Me}/>
+          
+          
+          </div>
+      </BrowserRouter>
+    );
+  }
 }
-
 export default App;
