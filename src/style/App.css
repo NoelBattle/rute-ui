@@ -96,6 +96,12 @@ right: 1vw;
 #pic-space{
   padding:3vw;
 }
+#prog-space{
+  height: 40vw;
+}
+#truff-space{
+  height: 10vw;
+}
 
 .pic-header{
   margin-left: auto;

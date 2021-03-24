@@ -151,6 +151,7 @@ class Truffles extends Component {
             </div>
                 <div class="col-md-1"></div>
             </div>
+            <div class="row" id="truff-space"></div>
 
             <div class="row" id="next-prev-buttons" >
                         <div class="col">

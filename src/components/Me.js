@@ -52,9 +52,7 @@ class Me extends Component {
                         My UX experience consists of a UX internship at LILO, a luxury pool float company, and a marketing internship at Rice Games analyzing Shujinkou, a Japanese language learning video game.
                         </p>
                         <p id="text-content-style">
-                        Using the skills I learned from these experiences, I created Rute. 
-                        I made Rute primarily to gain a comprehensive understanding of the website creation process. The goal was to optimize all the current medical school application tools and combine them into one website.
-                        The experience has allowed me the opportunity to work in many different domains outside of my comfort zone. However through my fair share of trial and error, I have gained a myriad of reproducible skills and am super excited for whichever project I embark on next.                        
+                        Using the skills I learned from these experiences, I created Rute. I made Rute primarily to gain a comprehensive understanding of the website creation process. The goal was to optimize all the current medical school application tools and combine them into one website. The experience has allowed me the opportunity to work in many different domains outside of my comfort zone. Through my fair share of trial and error, I have gained a myriad of reproducible skills that I can leverage to land a job in the future.
                         </p>
                     </div>
                     <div class="col-md-1"></div>

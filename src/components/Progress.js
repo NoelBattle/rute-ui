@@ -264,7 +264,7 @@ class Progress extends Component {
             </div>
                 <div class="col-md-1"></div>
             </div>
-            <div class="row" id="gallery-space"></div>
+            <div class="row" id="prog-space"></div>
 
             <div class="row" id="next-prev-buttons" >
                         <div class="col">
