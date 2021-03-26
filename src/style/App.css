@@ -26,12 +26,26 @@
 #shorter-content{
   height: 50vh;
 }
+
 #longer-content{
   height: 70vh;
 }
+
+#little-longer-content{
+  height: 130vh;
+  margin-bottom:20vh;
+}
+
 #much-longer-content{
   height: 170vh;
 }
+
+@media only screen and (max-width:767px) {
+  #much-much-longer-content{
+    height: 40vh;
+  }
+}
+
 #much-much-longer-content{
   height: 200vh;
 }
@@ -41,11 +55,13 @@
     height: 30vh;
   }
 }
+
 @media only screen and (max-width: 767px) {
   #content-col{
     height: 20vh;
   }
 }
+
 #text-center{
   text-align: center;
 }
@@ -56,6 +72,7 @@
     display: none;
   }
 }
+
 .Footer{
   position: static;
   bottom:0px;
@@ -77,28 +94,45 @@
 }
 
 #progress-lines{
-width: 2.5vw;
+width: 2vw;
+padding-bottom: 2vw;
 }
+
 
 #prog-line-center{
 position: relative;
 right: 1vw;
 }
+
 #me-pic{
   width:15vw;
   padding-left:2vw;
 }
+
 #me-row{
   width:120%;
   position: relative;
   right:8.5vw;
 }
+
 #pic-space{
   padding:3vw;
 }
+
 #prog-space{
-  height: 40vw;
+  height: 40vh;
 }
+
+#misc-space{
+  height: 10vw;
+}
+
+@media only screen and (min-width:1400px) {
+  #misc-space{
+    height: 40vw;
+  }
+}
+
 #truff-space{
   height: 10vw;
 }
@@ -116,8 +150,14 @@ right: 1vw;
 #footer-div{
   width: 102%;
   overflow-x: hidden;
-  
   position: static;
+  bottom:0;
+}
+
+#footer-prog-div{
+  width: 102%;
+  overflow-x: hidden;
+  position: absolute;
   bottom:0;
 }
 
@@ -134,11 +174,6 @@ right: 1vw;
   transform: translate(-50%, -50%);
 }
 
-.center-widt{
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .center-width{
   position: relative;
@@ -187,9 +222,11 @@ right: 1vw;
 }
 
 #next-prev-buttons{
+  position: relative;
   margin-bottom: 2vw;
   margin-top: 3vw;
   padding-bottom: 3vw;
+  height: 10vw;
 }
 
 .button-center{

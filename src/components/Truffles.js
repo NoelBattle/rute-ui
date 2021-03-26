@@ -35,7 +35,7 @@ class Truffles extends Component {
                         <FontAwesomeIcon id="header-icon"  icon={faStar} />
                         </div>
                     </div>
-                    <div class="row" id="header-text" >
+                    <div class="row" id="header-text">
                         <div class="col">Truffles</div>
                     </div>
                     <div class="row" id="underline">
@@ -50,7 +50,7 @@ class Truffles extends Component {
                 <div class="col-md-10" id="gal-col">
                     <div class="row" id="gallery-row-1">
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Green no shadow</span>
                             </div>
                             <div class="row">
@@ -58,7 +58,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Blue no shadow</span>
                             </div>
                             <div class="row">
@@ -66,7 +66,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Yellow no shadow</span>
                             </div>
                             <div class="row">
@@ -74,7 +74,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Red no shadow</span>
                             </div>
                             <div class="row">
@@ -82,7 +82,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Black no shadow</span>
                             </div>
                             <div class="row">
@@ -90,7 +90,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Faded no shadow</span>
                             </div>
                             <div class="row">
@@ -100,7 +100,7 @@ class Truffles extends Component {
                     </div>
                     <div class="row" id="gallery-row-2">
                     <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style-d">Green w/ shadow</span>
                             </div>
                             <div class="row">
@@ -108,7 +108,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style-d">Blue w/ shadow</span>
                             </div>
                             <div class="row">
@@ -116,7 +116,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style-d">Yellow w/ shadow</span>
                             </div>
                             <div class="row">
@@ -124,7 +124,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style-d">Red w/ shadow</span>
                             </div>
                             <div class="row">
@@ -132,7 +132,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style-d">Black w/ shadow</span>
                             </div>
                             <div class="row">
@@ -140,7 +140,7 @@ class Truffles extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style-d">Faded w/ shadow</span>
                             </div>
                             <div class="row">
@@ -153,21 +153,21 @@ class Truffles extends Component {
             </div>
             <div class="row" id="truff-space"></div>
 
-            <div class="row" id="next-prev-buttons" >
-                        <div class="col">
-                        <NavLink to={"/pigs"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-l" >
-                                Prev
-                            </button>
-                            </NavLink>
-                        </div>
-                        <div class="col">
-                        <NavLink to={"/buttons"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-r" >
-                                Next
-                            </button>
-                            </NavLink>
-                        </div>
+            <div class="row" id="next-prev-buttons">
+                <div class="col">
+                    <NavLink to={"/pigs"} id="link-no-style">
+                        <button  id="button-l" class="button-center-l">
+                            Prev
+                        </button>
+                    </NavLink>
+                </div>
+                <div class="col">
+                    <NavLink to={"/buttons"} id="link-no-style">
+                        <button  id="button-l" class="button-center-r">
+                            Next
+                        </button>
+                    </NavLink>
+                </div>
             </div>
             <div class="row" id="idea-bottom-space"></div>
             <div id="footer-div">

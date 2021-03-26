@@ -28,7 +28,7 @@ class Pigs extends Component {
                         <FontAwesomeIcon id="header-icon"  icon={faPiggyBank} />
                         </div>
                     </div>
-                    <div class="row" id="header-text" >
+                    <div class="row" id="header-text">
                         <div class="col">Pigs</div>
                     </div>
                     <div class="row" id="underline">
@@ -43,7 +43,7 @@ class Pigs extends Component {
                 <div class="col-md-10" id="gal-col">
                     <div class="row" id="gallery-row-1">
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Normal</span>
                             </div>
                             <div class="row">
@@ -51,7 +51,7 @@ class Pigs extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Blinking</span>
                             </div>
                             <div class="row">
@@ -59,7 +59,7 @@ class Pigs extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Doctor</span>
                             </div>
                             <div class="row">
@@ -67,7 +67,7 @@ class Pigs extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Masked</span>
                             </div>
                             <div class="row">
@@ -75,7 +75,7 @@ class Pigs extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Silly</span>
                             </div>
                             <div class="row">
@@ -87,21 +87,21 @@ class Pigs extends Component {
                 <div class="col-md-1"></div>
             </div>
 
-            <div class="row" id="next-prev-buttons" >
-                        <div class="col">
-                        <NavLink to={"/"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-l" >
-                                Prev
-                            </button>
-                            </NavLink>
-                        </div>
-                        <div class="col">
-                        <NavLink to={"/truffles"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-r" >
-                                Next
-                            </button>
-                            </NavLink>
-                        </div>
+            <div class="row" id="next-prev-buttons">
+                <div class="col">
+                    <NavLink to={"/"} id="link-no-style">
+                        <button  id="button-l" class="button-center-l">
+                            Home
+                        </button>
+                    </NavLink>
+                </div>
+                <div class="col">
+                    <NavLink to={"/truffles"} id="link-no-style">
+                        <button  id="button-l" class="button-center-r">
+                            Next
+                        </button>
+                    </NavLink>
+                </div>
             </div>
             <div class="row" id="idea-bottom-space"></div>
             

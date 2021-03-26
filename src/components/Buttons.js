@@ -25,7 +25,7 @@ class Buttons extends Component {
                         <FontAwesomeIcon id="header-icon"  icon={faMousePointer} />
                         </div>
                     </div>
-                    <div class="row" id="header-text" >
+                    <div class="row" id="header-text">
                         <div class="col">Buttons</div>
                     </div>
                     <div class="row" id="underline">
@@ -40,35 +40,35 @@ class Buttons extends Component {
                 <div class="col-md-10" id="gal-col">
                     <div class="row" id="gallery-row-1">
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row" >
                                 <span  class="pic-header" id="text-content-style">Favorite off</span>
                             </div>
                             <div class="row">
-                                <img alt="green truffle"  id="gallery-snout" src={heartOff}/>
+                                <img alt="heart off"  id="gallery-snout" src={heartOff}/>
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row" >
                                 <span  class="pic-header" id="text-content-style">Favorite on</span>
                             </div>
                             <div class="row">
-                                <img alt="blue truffle" id="gallery-snout" src={heartOn}/>
+                                <img alt="heart on" id="gallery-snout" src={heartOn}/>
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row" >
                                 <span  class="pic-header" id="text-content-style">Light on</span>
                             </div>
                             <div class="row">
-                                <img alt="yellow truffle" id="gallery-snout" src={lightOff}/>
+                                <img alt="light on" id="gallery-snout" src={lightOff}/>
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row" >
                                 <span  class="pic-header" id="text-content-style">Light off</span>
                             </div>
                             <div class="row">
-                                <img alt="red truffle" id="gallery-snout" src={nightOn}/>
+                                <img alt="light off" id="gallery-snout" src={nightOn}/>
                             </div>
                         </div>
                       
@@ -77,21 +77,21 @@ class Buttons extends Component {
                 <div class="col-md-1"></div>
             </div>
 
-            <div class="row" id="next-prev-buttons" >
-                        <div class="col">
-                        <NavLink to={"/truffles"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-l" >
-                                Prev
-                            </button>
-                            </NavLink>
-                        </div>
-                        <div class="col">
-                        <NavLink to={"/icons"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-r" >
-                                Next
-                            </button>
-                            </NavLink>
-                        </div>
+            <div class="row" id="next-prev-buttons">
+                <div class="col">
+                    <NavLink to={"/truffles"} id="link-no-style">
+                        <button  id="button-l" class="button-center-l">
+                            Prev
+                        </button>
+                    </NavLink>
+                </div>
+                <div class="col">
+                    <NavLink to={"/icons"} id="link-no-style">
+                        <button  id="button-l" class="button-center-r">
+                            Next
+                        </button>
+                    </NavLink>
+                </div>
             </div>
             <div class="row" id="idea-bottom-space"></div>
             

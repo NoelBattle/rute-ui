@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import ReactPlayer from "react-player"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBrain } from '@fortawesome/free-solid-svg-icons'
 import uiMe from '../imgs/about/me.JPG'
-import Footer from "./layout/Footer";
+import Footer from "./layout/Footer"
 
 class Me extends Component {
     componentDidMount() {
@@ -21,7 +21,7 @@ class Me extends Component {
                                 <FontAwesomeIcon id="header-icon"  icon={faBrain} />
                             </div>
                         </div>
-                        <div class="row" id="header-text" >
+                        <div class="row" id="header-text">
                             <div class="col">About Me</div>
                         </div>
                         <div class="row" id="underline">
@@ -44,7 +44,6 @@ class Me extends Component {
                             I am an extremely motivated individual with passions in UX, design, coding, and storytelling. I graduated from UCLA in 2020 with a B.S. in Cognitive Science and a specialization in Computing.
                             </p>
                         </div>
-                
                         <p id="text-content-style">
                         While I  was  taking classes at UCLA, I started my coding journey enrolling in the UCLA Extension 6 month ‘Full Stack Web Development  Bootcamp’. This is where I was first introduced to the M.E.R.N stack. After my certification, I also took various C++, web development, and python courses for my major and specialization. 
                         </p>
@@ -57,24 +56,22 @@ class Me extends Component {
                     </div>
                     <div class="col-md-1"></div>
                 </div>
-
-                <div class="row" id="next-prev-buttons" >
+                <div class="row" id="next-prev-buttons">
                     <div class="col">
-                    <NavLink to={"/progress"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-l" >
-                            Prev
-                        </button>
+                        <NavLink to={"/progress"} id="link-no-style">
+                            <button  id="button-l" class="button-center-l">
+                                Prev
+                            </button>
                         </NavLink>
                     </div>
                     <div class="col">
-                    <NavLink to={"/"} id="link-no-style" >
-                        <button  id="button-l" class="button-center-r" >
-                            Next
-                        </button>
+                        <NavLink to={"/"} id="link-no-style">
+                            <button  id="button-l" class="button-center-r">
+                                Home
+                            </button>
                         </NavLink>
                     </div>
                 </div>
-                
                 <div class="row" id="me-bottom-space"></div>
                 <div id="footer-div">
                     <Footer/>

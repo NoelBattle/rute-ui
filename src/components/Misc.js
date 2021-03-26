@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, NavLink, useLocation } from "react-router-dom"
 import '../style/Gallery.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuestion } from '@fortawesome/free-solid-svg-icons'
@@ -25,7 +25,7 @@ class Misc extends Component {
                         <FontAwesomeIcon id="header-icon"  icon={faQuestion} />
                         </div>
                     </div>
-                    <div class="row" id="header-text" >
+                    <div class="row" id="header-text">
                         <div class="col">Misc</div>
                     </div>
                     <div class="row" id="underline">
@@ -40,7 +40,7 @@ class Misc extends Component {
                 <div class="col-md-10" id="gal-col">
                     <div class="row" id="gallery-row-1">
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Snout On</span>
                             </div>
                             <div class="row">
@@ -48,7 +48,7 @@ class Misc extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Snout Off</span>
                             </div>
                             <div class="row">
@@ -56,18 +56,17 @@ class Misc extends Component {
                             </div>
                         </div>
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Pig Search</span>
                             </div>
                             <div class="row">
                                 <img alt="yellow truffle" id="gallery-snout" src={Art}/>
                             </div>
                         </div>
-                       
                     </div>
                     <div class="row" id="gallery-row-1">
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Home: Lightmode</span>
                             </div>
                             <div class="row">
@@ -77,7 +76,7 @@ class Misc extends Component {
                     </div>
                     <div class="row" id="gallery-row-1">
                         <div class="col" id="pic-space">
-                            <div class="row"  >
+                            <div class="row">
                                 <span  class="pic-header" id="text-content-style">Home: Darkmode</span>
                             </div>
                             <div class="row">
@@ -88,23 +87,22 @@ class Misc extends Component {
             </div>
                 <div class="col-md-1"></div>
             </div>
-            <div class="row" id="gallery-space"></div>
-
-            <div class="row" id="next-prev-buttons" >
-                        <div class="col">
-                        <NavLink to={"/icons"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-l" >
-                                Prev
-                            </button>
-                            </NavLink>
-                        </div>
-                        <div class="col">
-                        <NavLink to={"/progress"} id="link-no-style" >
-                            <button  id="button-l" class="button-center-r" >
-                                Next
-                            </button>
-                            </NavLink>
-                        </div>
+            <div class="row" id="misc-space"></div>
+            <div class="row" id="next-prev-buttons">
+                <div class="col">
+                    <NavLink to={"/icons"} id="link-no-style">
+                        <button  id="button-l" class="button-center-l">
+                            Prev
+                        </button>
+                    </NavLink>
+                </div>
+                <div class="col">
+                    <NavLink to={"/progress"} id="link-no-style">
+                        <button  id="button-l" class="button-center-r">
+                            Next
+                        </button>
+                    </NavLink>
+                </div>
             </div>
             <div class="row" id="idea-bottom-space"></div>
             
